@@ -1,21 +1,12 @@
 ### Laravel Basic
 
-### Nội dung Bài 1
-
-```
+## Nội dung Bài 1
 Giới thiệu lời mở đầu. Tạo sao lựa chọn Laravel.
 
-```
+## Nội dung Bài 8
+Hướng dẫn tạo bảng cơ sở dữ liệu với migration. Truy vấn dữ liệu với Eloquent. Khái quát nhanh cơ bản không gian tên cho hàm và lớp (namespace) về quy trình làm việc theo mô hình MVC.
 
-### Nội dung Bài 8
-
-```
-Hướng dẫn tạo bảng cơ sở dữ liệu với migration. Truy vấn dữ liệu với Eloquent. Khái quát nhanh cơ bản không gian tên cho hàm và lớp (namespace) về quy trình làm việc theo mô hình MVC. 
-```
-
-### Nội dung Bài 9
-
-```
+## Nội dung Bài 9
 Cấu trúc thư mục Laravel
 - thư mục app: chứa nhưng code cốt lõi (core code) của ứng dụng.
 - thư mục boootstrap: chứa những file khởi động của framework và những file cấu hình auto loading, route, và file cache.
@@ -33,29 +24,16 @@ Cấu trúc thư mục Laravel
 - composer.json, composer.lock, composer-setup.php: File composer
 - package.js: chứa các package cần dùng cho projects.
 - webpack.mix.js: ile dùng để build các webpack.
-```
 
-### Nội dung Bài 14
-
-```
+## Nội dung Bài 14
 Đơn giản hóa và tối ưu lại code. Thay vì CRUD 1 cách thủ công và dài dòng ta dùng đơn giản hóa lại từ Model. Hướng dẫn sử dụng Route::resource().
-```
 
-### Nội dung Bài 22
-
-```
+## Nội dung Bài 22
 Khái niệm về Service Providers. Cách thức Laravel khởi tạo tất cả ứng dụng qua Service Providers .Thêm, đăng ký, khai báo 1 service providers qua thuộc tính bindings và singletons.
 
-```
+## Nội dung bài 28
+Hướng dẫn debug ứng dụng với package Laravel Telescope (composer require laravel/telescope --dev). Nắm bắt được các thông tin về các dữ liệu liên quan như truy vấn (Queries) và thời gian thực hiện (execute time) , lần truy cập bộ nhớ (cache), tất cả các yêu cầu HTTP đi vào ứng dụng (requests),....
 
-### Nội dung bài 28
-
-```
-   Hướng dẫn debug ứng dụng với package Laravel Telescope (composer require laravel/telescope --dev). Nắm bắt được các thông tin về các dữ liệu liên quan như truy vấn (Queries) và thời gian thực hiện (execute time) , lần truy cập bộ nhớ (cache), tất cả các yêu cầu HTTP đi vào ứng dụng (requests),....
-```
-
-### Nội dung Bài 31
-
-```
+## Nội dung Bài 31
    Tiếp cận, chiến lược tổ chức code.  
-```
+
